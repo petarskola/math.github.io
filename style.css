@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One';
+    background: #ECDBBA;
+    color: #2D4263;
+    transition: all .5s;
+}
+
+.content
+{
+    width:  fit-content;
+    height: fit-content;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+input
+{
+    width: 100%;
+    width: 500px;
+    height: 50px;
+    border: 5px solid #2D4263;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding-left: 25px;
+    font-size: 28px;
+    background: #2D4263;
+    background-color:rgba(45,66,99, .4);
+    position: relative;
+}
+input::placeholder
+{
+    color: #2D4263;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:focus
+{
+    outline: none;
+    border: 5px solid #2D4263;
+}
+.status
+{
+    width: 500px;
+    height: 20px;
+    position: relative;
+}
+#timeP
+{
+    padding-top: 10px;
+    text-align: right;
+    font-size: 25px;
+    width: 50%;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+#scoreP
+{
+    padding-top: 10px;
+    text-align: left;
+    font-size: 25px;
+    width: 50%;
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+#butt
+{
+    position: absolute;
+    width: 300px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 0;
+    width: 0;
+    border-width: 0px;
+}
+#butt:hover, #butt:focus
+{
+    background-color:rgba(45,66,99, .6);
+}
