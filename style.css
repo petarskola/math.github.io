@@ -10,7 +10,7 @@
 
 .content
 {
-    width:  fit-content;
+    width:fit-content;
     height: fit-content;
     position: absolute;
     inset: 0;
@@ -27,7 +27,6 @@ h1
 input
 {
     width: 100%;
-    width: 500px;
     height: 50px;
     border: 5px solid #2D4263;
     box-sizing: border-box;
@@ -37,6 +36,7 @@ input
     background: #2D4263;
     background-color:rgba(45,66,99, .4);
     position: relative;
+    margin: auto;
 }
 input::placeholder
 {
