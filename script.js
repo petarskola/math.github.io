@@ -1,4 +1,9 @@
 var res;
+if(localStorage.getItem("HighScore")==null)
+  localStorage.setItem("HighScore",0);
+
+hscoreP.innerHTML="highscore: " + localStorage.getItem("HighScore");
+
 function restart()
 {
     var x1=Math.floor(Math.random()*101);
@@ -45,6 +50,11 @@ input.addEventListener("keypress", function(event) {
         score++;
         scoreShow.innerHTML="score: "+score;
         input.placeholder="";
+        if(score>localStorage.getItem("HighScore")*1)
+        {
+          localStorage.setItem("HighScore",score);
+          hscoreP.innerHTML="highscore: "+localStorage.getItem("HighScore");
+        }
     }
   }
 });
