@@ -6,8 +6,8 @@ hscoreP.innerHTML="highscore: " + localStorage.getItem("HighScore");
 
 function restart()
 {
-    var x1=Math.floor(Math.random()*101);
-    var x2=Math.floor(Math.random()*101);
+    var x1=Math.floor(Math.random()*501);
+    var x2=Math.floor(Math.random()*501);
     n1.innerHTML=x1;
     n2.innerHTML=x2;
 
